@@ -5,11 +5,14 @@ import java.util.Scanner;
 // Classe representa um conjunto de objetos similares
 public class Hello {
 	
+	// TODO: comentar em qual(is) classes é possível acessar 
+	// cada atributo/método?
+	
 	// Atributos =
 	// Variáveis que pertencem a uma classe
 	// Pode ser acessado por qualquer método da classe
-	int r;
-	int idadeInt;
+	private int r;
+	protected int idadeInt;
 
 	// # FIM DOS ATRIBUTOS
 	
